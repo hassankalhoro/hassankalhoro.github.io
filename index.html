@@ -249,6 +249,12 @@
 
 <section class="hero" id="top">
   <div class="wrap">
+    <div class="hassan-profile-photo">
+      <img
+              src="2x2-2.jpg"
+              alt="Muhammad Hassan - Senior Full Stack Engineer"
+      >
+    </div>
     <div class="hero-eyebrow">// Karachi, Pakistan — open to remote roles worldwide</div>
     <h1>Muhammad Hassan builds <em>secure</em>, AI-augmented backend systems.</h1>
     <div class="terminal">
@@ -600,6 +606,43 @@
     navLinks.style.cssText += isOpen ? '' : 'position:absolute;top:100%;left:0;right:0;background:#0B1030;flex-direction:column;padding:20px 28px;gap:18px;';
   });
 </script>
+<style>
+  /* Muhammad Hassan Profile Photo */
+  .hassan-profile-photo {
+    position: absolute !important;
+    top: 140px !important;
+    right: 8% !important;
+    width: 280px !important;
+    height: 280px !important;
+    border-radius: 50% !important;
+    overflow: hidden !important;
+    z-index: 9999 !important;
+    display: block !important;
+  }
 
+  .hassan-profile-photo img {
+    width: 100% !important;
+    height: 100% !important;
+    max-width: none !important;
+    max-height: none !important;
+    object-fit: cover !important;
+    object-position: center !important;
+    border-radius: 50% !important;
+    display: block !important;
+  }.wrap {
+     position: relative !important;
+   }@media (max-width: 900px) {
+
+    .hassan-profile-photo {
+      position: relative !important;
+      top: auto !important;
+      right: auto !important;
+      width: 200px !important;
+      height: 200px !important;
+      margin: 0 auto 40px !important;
+    }
+
+  }
+</style>
 </body>
 </html>
